@@ -5,6 +5,7 @@
 }
 p {
     text-align: justify;
+    padding: auto;
 }
 body{
     background-image: linear-gradient(80deg,#F1D8C9, #f2c3d9);
@@ -22,6 +23,8 @@ h1{
     color: orange;
     text-align: center;
     text-shadow: 1px 1px 1px black;
+    margin: auto;
+    
 }
 h2{
     color: darkblue;
