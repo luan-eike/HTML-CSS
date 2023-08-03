@@ -6,6 +6,7 @@ body{
 h1{
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
+    text-align: center;
 }
 h1#principal{
     text-align: center;
@@ -14,4 +15,18 @@ h1#principal{
 p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.um{
+    background-color: red;
+}
+.dois{
+    background-color: blue;
+}
+.tres{
+    background-color: aqua;
+}
+.destaque{
+    color: white;
+    font-weight: bold;
 }
