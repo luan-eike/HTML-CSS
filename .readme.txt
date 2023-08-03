@@ -1,0 +1,26 @@
+box-level = quebra linha, se inicia na linha de baixo e no final dela quebra linha, alem de pegar o width do navegador inteiro.
+
+	div
+	h1 - h6
+	p
+	main
+	header
+	nav
+	article
+	aside
+	footer
+	form
+	video
+inline-level = não quebra linha, ele começa na mesma linha que foi chamado e só toma o espaço necessário.
+
+	span
+	a
+	code
+	small
+	strong	
+	em
+	sup - sub	
+	label
+	button
+	input
+	select
