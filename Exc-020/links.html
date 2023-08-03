@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+
+        #  = id
+        .  = class
+        :  = pseudoclass
+        :: = pseudoelement
+        >  = children
+
+        */
+
+        .especial{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .especial::after{
+            content: '🡽';
+        }
+        a:visited{
+            color: rgb(0, 118, 139);
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/luan-eike" rel="extern" target="_blank">Respositório GitHub</a></li>
+        <li><a href="https://youtube.com/fastzbr" class="especial" rel="extern" target="_blank">Canal Youtube</a></li>
+        <li><a href="https://cursoemvideo.com" rel="extern" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
