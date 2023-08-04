@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: darkgray;
+        }
+        header{
+            width: auto;
+            background-color: white;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        article#main{
+            background-color: white;
+            color: pink;
+            /* padding: 1px; */
+            border-top: 10px;
+            border-color: black;
+        }
+        h2{
+            text-align: center;
+        }
+        article{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+
+        }
+        .descricao{
+            text-align: right;
+        }
+        p{
+            text-align: justify;
+            margin: 10px;
+        }
+        footer{
+            background-color: aqua;
+            color: black;
+            font-weight: bold;
+        }
+        .teste{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="http://youtube.com"></a>
+            <a href="http://facebook.com"></a>
+            <a href="http://twitter.com"></a>
+            <a href="http://instagram.com"></a>
+            <a href="http://x.com"></a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article id="main">
+                <h2>Noticias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque, assumenda minus necessitatibus rerum earum laudantium officiis magnam. Saepe dolores ullam commodi suscipit odit quis est consectetur quisquam quam sapiente.</p>
+            </article>
+            <article>
+                <p class="descricao">artigo escrito por luan</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p class="teste">Desenvolvido por Luan Eike</p>
+    </footer>
+</body>
+</html>
