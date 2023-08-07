@@ -13,6 +13,9 @@ header{
     text-align: center;
     margin: 0px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.502);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 a:active{
     color: white;
@@ -31,6 +34,14 @@ a{
     font-weight: bold;
     color: white;
 }
+.genio{
+    flex-direction: row;
+    
+}
+.link:hover{
+    background-color: darkblue;
+}
+
 h1{
     margin: 0px;
     padding: 27px;
@@ -51,18 +62,17 @@ h3{
     background-image: linear-gradient(90deg, rgba(0, 0, 255, 0.328), rgba(255, 255, 255, 0));
 }
 div{
-    padding: 7px;
+    padding: 0px;
     margin: 0;
-    display: inline;
+    display: flex;
 }
-.link:hover{
-    background-color: darkblue;
-}
-.main{
-    display: block;
+
+.main {
+    display: flex;
     text-align: justify;
     font-weight: bold;
     background-color: white;
     width: 80%;
     margin: auto;
+    flex-direction: column;
 }
