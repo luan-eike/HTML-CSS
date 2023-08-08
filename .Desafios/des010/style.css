@@ -25,7 +25,8 @@ a:hover{
     text-decoration: underline;
 }
 p{
-    padding: 10px;
+    padding: 0px;
+    margin: 12px;
 }
 a{
     padding-top: 10px;
@@ -51,7 +52,7 @@ h2{
     font-weight: normal;
     margin: 0px;
     padding-left: 10px;
-
+    margin-top: 25px;
 }
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -75,4 +76,8 @@ div{
     width: 80%;
     margin: auto;
     flex-direction: column;
+}
+
+picture{
+    text-align: center;
 }
