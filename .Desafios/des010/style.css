@@ -71,13 +71,21 @@ div{
 .main {
     display: flex;
     text-align: justify;
-    font-weight: bold;
+    font-weight: normal;
     background-color: white;
     width: 80%;
     margin: auto;
     flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
 }
-
+li{
+    list-style-type:square;
+    margin: 0;
+    padding: 0;
+    text-indent: 0px;
+}
 picture{
     text-align: center;
 }
@@ -102,17 +110,17 @@ footer{
 }
 .table-main{
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .table {
     display: flex;
     flex-direction: column;
     color: white;
-    height: 700px;
-    width: 600px;
     background-color: rgb(77, 77, 255);
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 28px;
     border-radius: 20px;
+    text-indent: 40px;
 }
 .table-div{
     height: 30px;
@@ -125,4 +133,24 @@ footer{
     font-weight: normal;
     text-align: left;
     border-radius: 20px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.table-text{
+    margin-bottom: 28px;
+    text-indent: 40px;
+}
+
+strong{
+    color: rgb(0, 0, 149);
+}
+
+.link-text {
+    background-color: rgb(0, 0, 149);
+    padding: 0;
 }
